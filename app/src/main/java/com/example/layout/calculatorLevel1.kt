@@ -3,12 +3,19 @@ package com.example.layout
 //Lv1 : 더하기, 빼기, 나누기, 곱하기 연산을 수행할 수 있는 Calculator 클래스를 만들고, 클래스를 이용하여 연산을 진행하고 출력하기
 fun main() {
 
-    println("값을 하나씩 입력해 주세요")
+    println("계산기 ON")
+    println("첫번째 숫자를 입력해 주세요")
     val a = readLine()!!.toInt()
+
+    println("수식을 입력해 주세요")
     val operator = readLine()!!.toString()
+
+    println("두번째 숫자를 입력해 주세요")
     val b = readLine()!!.toInt()
 
     Calculator1(a, operator, b).operator()
+
+    println("계산기 OFF")
 
 }
 
