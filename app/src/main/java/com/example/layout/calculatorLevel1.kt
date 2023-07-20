@@ -1,6 +1,7 @@
 package com.example.layout
 
 //Lv1 : 더하기, 빼기, 나누기, 곱하기 연산을 수행할 수 있는 Calculator 클래스를 만들고, 클래스를 이용하여 연산을 진행하고 출력하기
+
 fun main() {
 
     println("계산기 ON")
@@ -19,7 +20,7 @@ fun main() {
 
 }
 
-class Calculator1(val num1: Int, val operator1: String, val num2: Int) {
+private class Calculator1(val num1: Int, val operator1: String, val num2: Int) {
 
     fun operator() {
 
@@ -46,6 +47,5 @@ class Calculator1(val num1: Int, val operator1: String, val num2: Int) {
         }
 
     }
-
 
 }
