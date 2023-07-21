@@ -34,31 +34,31 @@ class Calculator {
         return when (operation) {
             "+" -> {
 
-                return AddOperation().operate(num1, num2)
+                AddOperation().operate(num1, num2)
 
             }
 
             "-" -> {
 
-                return SubtractOperation().operate(num1, num2)
+                SubtractOperation().operate(num1, num2)
 
             }
 
             "*" -> {
 
-                return MultiplyOperation().operate(num1, num2)
+                MultiplyOperation().operate(num1, num2)
 
             }
 
             "/" -> {
 
-                return DivideOperation().operate(num1, num2)
+                DivideOperation().operate(num1, num2)
                 //소수점 2번째 자리까지 반올림으로 표현
 
             }
 
             else -> {
-                return null
+                null
             }
         }
     }
